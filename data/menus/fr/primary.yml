@@ -37,8 +37,8 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Projets
-  slug: projets
+- title: SCULPTURES
+  slug: sculptures
   target: "/projets/"
   kind: page
   new_tab: false
