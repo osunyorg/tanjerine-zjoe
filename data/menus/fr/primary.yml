@@ -1,15 +1,25 @@
 ---
 title: Menu principal
 items:
-- title: Organisations
-  slug: organisations
-  target: "/organisations/"
+- title: SCULPTURES
+  slug: sculptures
+  target: "/sculptures/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
+  children:
+  - title: MULTITUDES
+    slug: multitudes
+    target: "/sculptures/multitudes/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/sculptures/multitudes"
+    file: content/fr/pages/sculptures/multitudes/_index.html
+  descendants_targets:
+  - "/sculptures/multitudes/"
+  path: "/projects"
+  file: content/fr/projects/_index.html
 - title: Agenda
   slug: agenda
   target: "/agenda/"
@@ -46,22 +56,13 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: SCULPTURES
-  slug: sculptures
-  target: "/projets/"
+- title: Organisations
+  slug: organisations
+  target: "/organisations/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
-- title: MULTITUDES
-  slug: multitudes
-  target: "/multitudes/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/multitudes"
-  file: content/fr/pages/multitudes/_index.html
+  path: "/organizations"
+  file: content/fr/organizations/_index.html
 
