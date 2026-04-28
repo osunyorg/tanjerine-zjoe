@@ -1,6 +1,15 @@
 ---
 title: Menu principal
 items:
+- title: Organisations
+  slug: organisations
+  target: "/organisations/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/organizations"
+  file: content/fr/organizations/_index.html
 - title: Agenda
   slug: agenda
   target: "/agenda/"
@@ -46,13 +55,13 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Organisations
-  slug: organisations
-  target: "/organisations/"
+- title: MULTITUDES
+  slug: multitudes
+  target: "/multitudes/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
+  path: "/pages/multitudes"
+  file: content/fr/pages/multitudes/_index.html
 
