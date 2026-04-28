@@ -19,6 +19,10 @@ from = "/projets/index.html"
 to = "/sculptures/"
 
 [[redirects]]
+from = "/projets/2023-multitudes/index.html"
+to = "/sculptures/2023-multitudes/"
+
+[[redirects]]
 from = "/multitudes/index.html"
 to = "/sculptures/multitudes/"
 
