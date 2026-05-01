@@ -20,15 +20,6 @@ items:
   - "/sculptures/multitudes/"
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Personnes
-  slug: personnes
-  target: "/personnes/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
 - title: Organisations
   slug: organisations
   target: "/organisations/"
@@ -65,4 +56,13 @@ items:
   descendants_targets: []
   path: "/exhibitions"
   file: content/fr/exhibitions/_index.html
+- title: Personnes
+  slug: personnes
+  target: "/personnes/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
 
